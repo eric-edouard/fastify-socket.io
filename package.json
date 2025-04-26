@@ -7,7 +7,6 @@
     "build": "tsc --noEmit && tsup-node",
     "format": "rome format --write .",
     "lint": "rome check .",
-    "preinstall": "npx only-allow pnpm",
     "prepare": "husky install",
     "prepublish": "pnpm build",
     "release": "pnpm build && changeset publish",
@@ -20,7 +19,7 @@
     "url": "git+https://github.com/ducktors/fastify-socket.io.git"
   },
   "dependencies": {
-    "fastify-plugin": "^4.5.1",
+    "fastify-plugin": ">=4",
     "tslib": "^2.6.1"
   },
   "devDependencies": {
@@ -39,9 +38,7 @@
     "tsx": "^4.13.0",
     "typescript": "^4.9.5"
   },
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "peerDependencies": {
     "fastify": "4.x.x",
     "socket.io": ">=4"
