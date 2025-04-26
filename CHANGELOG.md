@@ -1,5 +1,9 @@
 # fastify-socket.io
 
+## 5.1.&
+
+Support Fastify 5 through this fork
+
 ## 5.1.0
 
 ### Minor Changes
