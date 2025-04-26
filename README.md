@@ -11,7 +11,7 @@ Supports socket.io version `5.x`
 ## Install
 
 ```
-npm i fastify-socket.io socket.io
+npm i @ericedouard/fastify-socket.io socket.io
 ```
 
 ## Usage
